@@ -1,7 +1,16 @@
 import React from "react";
 import ReactDOM, { createRoot } from "react-dom/client";
+import Header from "./src/components/Header";
+import Body from "./src/components/Body";
 
-const header = React.createElement("h1", {}, "Calculator");
+const AppLayout = () => {
+  return (
+    <>
+      <Header />
+      <Body />
+    </>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(header);
+root.render(<AppLayout />);
