@@ -1,7 +1,14 @@
+import Section from "./Section";
+
 const Body = () => {
   return (
     <div>
-      <h1> Body</h1>
+      <Section
+        title={"About"}
+        description={"This section is for About website"}
+      />
+      <Section title={"Cricket"} description={"This section is for Cricket"} />
+      <Section title={"Kabadi"} description={"This section is for Kabadi"} />
     </div>
   );
 };

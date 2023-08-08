@@ -4,9 +4,11 @@
   "description": "Calculator Built Using React",
   "main": "App.js",
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
     "test": "jest"
   },
-  "author": "",
+  "author": "Adarsha",
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",

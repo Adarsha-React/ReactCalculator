@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div>
-      <h1> Calcluator - Using React </h1>
+      <h1> Practice Project </h1>
     </div>
   );
 };
